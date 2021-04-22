@@ -20,11 +20,6 @@
   margin-top: 24px;
 }
 
-.img:hover {
-  background-color: rgb(9, 77, 146);
-  background-size: 34px;
-}
-
 .header-icons {
   float: right;
   width: 200px;
@@ -58,6 +53,42 @@
   color: gray;
 }
 
-.google-search{
-    align-content: center;
+.google-search {
+  text-align: center;
+  padding-top: 7%;
+}
+.google-img {
+  justify-content: center;
+  width: 400px;
+}
+
+.search-input {
+  width: 582px;
+  height: 44px;
+  border-radius: 20px;
+  border-color: rgb(165, 167, 168);
+  outline: none;
+  
+}
+
+.button-design {
+  margin-top: 30px;
+  height: 36px;
+  width: 135px;
+  background-color: F8F9FA;
+  border: transparent;
+  color:#3C4043;
+  border-radius: 3px;
+  font-family: arial,sans-serif;
+}
+
+.button-design:hover{
+    border-color: #3f4142;
+    box-shadow: 0px 0px 3px 1px;
+
+}
+
+.language-text-design {
+  padding-top: 30px;
+  font-family: arial,sans-serif;
 }
