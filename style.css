@@ -117,19 +117,21 @@
     
     float: left;
     margin-right: 15px;
-    color: rgb(53, 52, 52);
+    color: #787F82;
     text-decoration: none;
     font-size: 14px;
+    padding-left: 15px;
 }
 
 
 .first-footer{
-    font-size: 14px;
+    font-size: 15px;
     height:48px;
-    padding-left: 25px;
+    padding-left: 30px;
     font-family: arial,sans-serif;
     padding-top: 12px;
     border-bottom: 1px solid #dadce0;
+    color: #787F82;
 }
 
 .second-footer{
@@ -139,6 +141,11 @@
     align-items: center;
 }
 
-.second-footer-first-row{
+.first-row{
+    padding-left: 10px;
+}
 
+.second-row{
+    margin-left: auto;
+    padding-right: 35px;
 }
