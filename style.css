@@ -59,8 +59,8 @@
 }
 .google-img {
   justify-content: center;
-  width: 19%;
-  height: 22%;
+  width: 391px;
+  height: 220px;
   border-radius: 20px;
 }
 
@@ -69,7 +69,8 @@
   width: 582px;
   height: 44px;
   border-radius: 20px;
-  border-color: rgb(165, 167, 168);
+  border:none;
+  box-shadow: 0px 0px 1px 1px;
   outline: none;
   padding-left: 10px;
 }
@@ -105,9 +106,23 @@
     position: fixed;
    left: 0;
    bottom: 0;
-   height:50px;
+   height:95.4px;
    width: 100%;
    background-color: #F2F2F2;
    color: rgb(111,111,111);
-   text-align: center;
+   text-align: start;
+   padding-left: 25px;
+   padding-top: 12px;
+}
+
+.google-footer a {
+    float: left;
+    margin-right: 15px;
+    color: rgb(53, 52, 52);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+.first-footer{
+    
 }
