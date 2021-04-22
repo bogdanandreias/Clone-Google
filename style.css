@@ -111,18 +111,34 @@
    background-color: #F2F2F2;
    color: rgb(111,111,111);
    text-align: start;
-   padding-left: 25px;
-   padding-top: 12px;
 }
 
 .google-footer a {
+    
     float: left;
     margin-right: 15px;
     color: rgb(53, 52, 52);
     text-decoration: none;
     font-size: 14px;
-  }
+}
+
 
 .first-footer{
-    
+    font-size: 14px;
+    height:48px;
+    padding-left: 25px;
+    font-family: arial,sans-serif;
+    padding-top: 12px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.second-footer{
+    height:46px;
+    padding-left: 25px;
+    font-family: arial,sans-serif;
+    align-items: center;
+}
+
+.second-footer-first-row{
+
 }
